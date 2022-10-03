@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Blue_Gibbs-Start Scene.unity
+    guid: ed137e596d23e4f49a86fab21509fdba
+  - enabled: 1
+    path: Assets/Scenes/Dress-Up mini game.unity
+    guid: 47b5987534bc6ec4ba39491d6b27587e
   m_configObjects: {}
