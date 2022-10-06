@@ -7,6 +7,11 @@ public class DressUpMiniGame : MonoBehaviour
 {
     public Transform areaOne;
 
+    private void Update()
+    {
+        cursorAppears();
+    }
+
     void cursorAppears()
     {
         Cursor.lockState = CursorLockMode.None;
