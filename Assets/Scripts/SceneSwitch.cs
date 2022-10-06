@@ -14,9 +14,9 @@ public class SceneSwitch : MonoBehaviour
 
     void switchScene()
     {
-        bool change = Input.GetKey(KeyCode.P);
+        bool change = Input.GetKey(KeyCode.N);
 
-        if (change && Vector3.Distance(player.transform.position, door.transform.position) < 2f)
+        if (change && Vector3.Distance(player.transform.position, door.transform.position) < 7f)
         {
             SceneManager.LoadScene(1);
         }

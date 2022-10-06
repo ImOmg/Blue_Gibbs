@@ -20,7 +20,7 @@ public class DressUpGameDialogue : MonoBehaviour
         timer += Time.deltaTime;
         UIText.text = gameInstructions;
 
-        if (timer > 5f)
+        if (timer > 3f)
         {
             UIText.text = gamePrompt;
         }
