@@ -27,7 +27,7 @@ public class DressUpScene : MonoBehaviour
 
         if (change)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
     
