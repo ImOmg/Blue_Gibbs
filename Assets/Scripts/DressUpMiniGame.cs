@@ -35,5 +35,4 @@ public class DressUpMiniGame : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = false;
 
     }
-
 }
