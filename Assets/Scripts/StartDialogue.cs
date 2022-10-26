@@ -36,7 +36,7 @@ public class StartDialogue : MonoBehaviour
 
     void nearDoor()
     {
-        if (Vector3.Distance(player.transform.position, door.transform.position) < 2f)
+        if (Vector3.Distance(player.transform.position, door.transform.position) < 4f)
         {
             UIText.text = startDressUp;
         }
