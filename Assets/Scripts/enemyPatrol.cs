@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class enemyPatrol : MonoBehaviour
+public class EnemyPatrol : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
     
-    bool walkPointSet;
 
     public Transform[] wayPoints;
     private int wayPointIndex;
