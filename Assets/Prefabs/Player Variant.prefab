@@ -15,6 +15,14 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 2022625161863744528, guid: 332f56987f221864db3562ddde891cf8, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022625161863744528, guid: 332f56987f221864db3562ddde891cf8, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2022625161863744529, guid: 332f56987f221864db3562ddde891cf8, type: 3}
       propertyPath: m_StepOffset
       value: 0.5
@@ -97,7 +105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7896816650133564777, guid: 332f56987f221864db3562ddde891cf8, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 332f56987f221864db3562ddde891cf8, type: 3}
