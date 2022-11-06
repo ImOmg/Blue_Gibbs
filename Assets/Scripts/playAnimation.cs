@@ -11,6 +11,7 @@ public class playAnimation : MonoBehaviour
        if(other.CompareTag("Player"))
         {
             animationController.SetBool("playerNear", true);
+           // animationController.SetBool("playerAway", false);
         }
 
     }
@@ -20,7 +21,9 @@ public class playAnimation : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             animationController.SetBool("playerNear", false);
+            animationController.SetBool("playerAway", true);
         }
 
     }
+
 }
