@@ -9,6 +9,9 @@ TagManager:
   - Door
   - lever
   - EDoor
+  - bad
+  - good
+  - Ball
   layers:
   - Default
   - TransparentFX
