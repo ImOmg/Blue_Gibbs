@@ -310,7 +310,6 @@ GameObject:
   - component: {fileID: 185897421}
   - component: {fileID: 185897425}
   - component: {fileID: 185897426}
-  - component: {fileID: 185897427}
   m_Layer: 0
   m_Name: Shoes BG
   m_TagString: Untagged
@@ -426,19 +425,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaOne: {fileID: 2008420332}
---- !u!114 &185897427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185897420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9da8c2261a08541a012e1c9906b03d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  femme: 0
 --- !u!1 &234473885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,7 +2403,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401791802}
-  - component: {fileID: 1401791801}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2425,24 +2410,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1401791801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401791800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 960c0985455f7504090a75220bf3f78d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top: {fileID: 1917860843}
-  shoes: {fileID: 185897420}
-  pants: {fileID: 1847280799}
-  Top: 0
-  Shoes: 0
-  Pants: 0
 --- !u!4 &1401791802
 Transform:
   m_ObjectHideFlags: 0
@@ -2698,7 +2665,6 @@ GameObject:
   - component: {fileID: 1847280803}
   - component: {fileID: 1847280802}
   - component: {fileID: 1847280801}
-  - component: {fileID: 1847280806}
   m_Layer: 0
   m_Name: Skirt BG
   m_TagString: Untagged
@@ -2814,19 +2780,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847280799}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1847280806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847280799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9da8c2261a08541a012e1c9906b03d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  femme: 0
 --- !u!1 &1906849816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2969,7 +2922,6 @@ GameObject:
   - component: {fileID: 1917860844}
   - component: {fileID: 1917860848}
   - component: {fileID: 1917860849}
-  - component: {fileID: 1917860850}
   m_Layer: 0
   m_Name: T-shirt BG
   m_TagString: Untagged
@@ -3085,19 +3037,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaOne: {fileID: 1906849817}
---- !u!114 &1917860850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917860843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9da8c2261a08541a012e1c9906b03d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  femme: 0
 --- !u!1 &1931476167
 GameObject:
   m_ObjectHideFlags: 0
