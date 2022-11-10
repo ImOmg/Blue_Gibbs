@@ -11,7 +11,7 @@ public class kicking : MonoBehaviour
     {
         if (other.tag == "Ball")
         {
-            if (Input.GetButtonDown("shoot"))
+            if (Input.GetButtonDown("E"))
             { 
                 ball.GetComponent<Rigidbody>().AddForce(Vector3.forward);
             }
