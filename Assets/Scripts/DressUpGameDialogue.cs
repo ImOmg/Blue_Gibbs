@@ -8,8 +8,8 @@ public class DressUpGameDialogue : MonoBehaviour
 {
     public TMP_Text UIText, UIText2;
     
-    public GameObject goodD;
-    public GameObject BadD;
+   // public GameObject goodD;
+   // public GameObject BadD;
 
     public string gameInstructions,
         gamePrompt,
@@ -77,6 +77,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (topChosen)
         {
             jersey.SetActive(false);
+            UIText.text = goodTop;
             //    dress.SetActive(false);
             //   suitTop.SetActive(false);
         }
@@ -84,6 +85,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (jerseyChosen)
         {
             top.SetActive(false);
+            UIText.text = badTop;
             //   dress.SetActive(false);
             //  suitTop.SetActive(false);
         }
@@ -112,6 +114,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (shoesChosen)
         {
             runners.SetActive(false);
+            UIText.text = goodShoes;
             //  heels.SetActive(false);
             //   suitShoes.SetActive(false);
         }
@@ -119,18 +122,21 @@ public class DressUpGameDialogue : MonoBehaviour
         if (runnersChosen)
         {
             shoes.SetActive(false);
+            UIText.text = badShoes;
             //  heels.SetActive(false);
             //  suitShoes.SetActive(false);
         }
 
+        /*
         if (heelsChosen)
         {
             shoes.SetActive(false);
             //  suitShoes.SetActive(false);
             runners.SetActive(false);
+          //  UIText.text = goodShoes;
         }
 
-        /*
+        
         if (suitShoesChosen)
         {
             shoes.SetActive(false);
@@ -142,6 +148,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (shortsChosen)
         {
             skirt.SetActive(false);
+            UIText.text = badBottoms;
             //  dress.SetActive(false);
             // suitPants.SetActive(false);
         }
@@ -149,6 +156,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (skirtChosen)
         {
             shorts.SetActive(false);
+            UIText.text = goodBottoms;
             //  dress.SetActive(false);
             // suitPants.SetActive(false);
         }
@@ -164,25 +172,24 @@ public class DressUpGameDialogue : MonoBehaviour
 
         bool topDone =
             jersey.activeInHierarchy == false ||
-            top.activeInHierarchy ==
-            false; // || dress.activeInHierarchy == false || suitTop.activeInHierarchy == false;
+            top.activeInHierarchy == false; // || dress.activeInHierarchy == false || suitTop.activeInHierarchy == false;
         bool shoesDone =
             runners.activeInHierarchy == false ||
-            shoes.activeInHierarchy ==
-            false; // || heels.activeInHierarchy == false || suitShoes.activeInHierarchy == false;
+            shoes.activeInHierarchy == false; // || heels.activeInHierarchy == false || suitShoes.activeInHierarchy == false;
         bool bottomsDone =
             shorts.activeInHierarchy == false ||
-            skirt.activeInHierarchy ==
-            false; // || dress.activeInHierarchy == false || suitPants.activeInHierarchy == false;
+            skirt.activeInHierarchy == false; // || dress.activeInHierarchy == false || suitPants.activeInHierarchy == false;
 
         if (topDone && shoesDone && bottomsDone)
         {
             camera1.SetActive(false);
             camera2.SetActive(true);
+            UIText.text = playing;
             UIText2.text = outfitChosen;
         }
     }
 
+    
     void chosenItemDialogue()
     {
         bool topChosen = Vector3.Distance(top.transform.position, areaTop.transform.position) < 1f;
@@ -243,10 +250,6 @@ public class DressUpGameDialogue : MonoBehaviour
         {
             UIText.text = goodBottoms;
         }
-        
-        
-        
-
     }
     
 }
