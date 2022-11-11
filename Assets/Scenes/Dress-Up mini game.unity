@@ -310,7 +310,6 @@ GameObject:
   - component: {fileID: 185897421}
   - component: {fileID: 185897425}
   - component: {fileID: 185897426}
-  - component: {fileID: 185897427}
   m_Layer: 0
   m_Name: Shoes BG
   m_TagString: Untagged
@@ -352,7 +351,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fcc7f252ae3c5e945824ccd3499eb52f, type: 2}
+  - {fileID: 2100000, guid: 3c364e0ef1563c446b31bdb96a7046e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -391,7 +390,7 @@ Transform:
   m_GameObject: {fileID: 185897420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.62, y: 2.34, z: -0.17000008}
-  m_LocalScale: {x: 1.8195183, y: 1.8195183, z: 1.8195183}
+  m_LocalScale: {x: 2.9774597, y: 2.9774597, z: 2.9774597}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374629996}
@@ -426,19 +425,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaOne: {fileID: 2008420332}
---- !u!114 &185897427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185897420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9da8c2261a08541a012e1c9906b03d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  femme: 0
 --- !u!1 &234473885
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +878,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9b6deb3f02d0cff4d9b2b24d6650a40b, type: 2}
+  - {fileID: 2100000, guid: 2b913afb62451794c80d04a1439284f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1302,7 +1288,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cc061030b0c62aa4c969a8f585c7f999, type: 2}
+  - {fileID: 2100000, guid: 23aa883db296fc441a4f04e47721255c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1681,7 +1667,7 @@ RectTransform:
   m_GameObject: {fileID: 1073513992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7208203, y: 0.7208203, z: 0.7208203}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 455359006}
@@ -1689,8 +1675,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200}
-  m_SizeDelta: {x: 600, y: 50}
+  m_AnchoredPosition: {x: 23.315697, y: -258.3833}
+  m_SizeDelta: {x: 728.5116, y: 290.9984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1073513994
 MonoBehaviour:
@@ -1742,7 +1728,7 @@ MonoBehaviour:
   m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1844,7 +1830,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7e59945447d492a408d3baab33a9b4e2, type: 2}
+  - {fileID: 2100000, guid: 8df2c3d54cfecc247b2a79cb0ca9d53e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1883,7 +1869,7 @@ Transform:
   m_GameObject: {fileID: 1102577673}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.55, y: 4.48, z: -0.14999962}
-  m_LocalScale: {x: 1.7141907, y: 1.7141907, z: 1.7141907}
+  m_LocalScale: {x: 2.6081412, y: 2.6081412, z: 2.6081412}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374629996}
@@ -2210,8 +2196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200}
-  m_SizeDelta: {x: 600, y: 50}
+  m_AnchoredPosition: {x: 49, y: -205}
+  m_SizeDelta: {x: 468.0335, y: 137.6626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1287435517
 MonoBehaviour:
@@ -2263,7 +2249,7 @@ MonoBehaviour:
   m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2417,7 +2403,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401791802}
-  - component: {fileID: 1401791801}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2425,24 +2410,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1401791801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401791800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 960c0985455f7504090a75220bf3f78d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  top: {fileID: 1917860843}
-  shoes: {fileID: 185897420}
-  pants: {fileID: 1847280799}
-  Top: 0
-  Shoes: 0
-  Pants: 0
 --- !u!4 &1401791802
 Transform:
   m_ObjectHideFlags: 0
@@ -2698,7 +2665,6 @@ GameObject:
   - component: {fileID: 1847280803}
   - component: {fileID: 1847280802}
   - component: {fileID: 1847280801}
-  - component: {fileID: 1847280806}
   m_Layer: 0
   m_Name: Skirt BG
   m_TagString: Untagged
@@ -2784,7 +2750,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6797aaf354eb5774db24c5a47ee42c13, type: 2}
+  - {fileID: 2100000, guid: 4cabfa8fefdf8bb43ac4b86bf82dabe3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2814,19 +2780,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847280799}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1847280806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847280799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9da8c2261a08541a012e1c9906b03d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  femme: 0
 --- !u!1 &1906849816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2969,7 +2922,6 @@ GameObject:
   - component: {fileID: 1917860844}
   - component: {fileID: 1917860848}
   - component: {fileID: 1917860849}
-  - component: {fileID: 1917860850}
   m_Layer: 0
   m_Name: T-shirt BG
   m_TagString: Untagged
@@ -3011,7 +2963,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a632c7f014801649b8f0f26a8ad1290, type: 2}
+  - {fileID: 2100000, guid: 2c2dd7419b3bd494baa70053bab57f07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3085,19 +3037,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaOne: {fileID: 1906849817}
---- !u!114 &1917860850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917860843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9da8c2261a08541a012e1c9906b03d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  femme: 0
 --- !u!1 &1931476167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3144,16 +3083,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIText: {fileID: 1073513994}
   UIText2: {fileID: 1287435517}
-  goodD: {fileID: 0}
-  BadD: {fileID: 0}
   gameInstructions: Choose an outift for today, click on the items to select them.
   gamePrompt: Press 'P' to move on once you've chosen.
-  goodTop: 
-  badTop: 
-  goodBottoms: 
-  badBottoms: 
-  goodShoes: 
-  badShoes: 
+  goodTop: How pretty!
+  badTop: What on earth are you wearing?
+  goodBottoms: What a pretty colour!
+  badBottoms: What were you thinking?
+  goodShoes: You look so lovely!
+  badShoes: You look horrible!
   outfitChosen: This is your chosen outfit, press 'P' to move on.
   playing: 
   areaTop: {fileID: 1906849817}
