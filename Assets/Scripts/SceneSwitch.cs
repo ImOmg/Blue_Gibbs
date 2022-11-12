@@ -18,7 +18,7 @@ public class SceneSwitch : MonoBehaviour
 
         if (change && Vector3.Distance(player.transform.position, door.transform.position) < 7f)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
