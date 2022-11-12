@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: 91e7a7c73159a1744a8f47a78ccb4d38
+  - enabled: 1
     path: Assets/Scenes/Blue_Gibbs-Start Scene.unity
     guid: ed137e596d23e4f49a86fab21509fdba
   - enabled: 1
@@ -23,10 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TS Scene.unity
     guid: 9afd7504657304042a5bfca3fe49c086
-  - enabled: 0
-    path: Assets/Scenes/Explore house scene.unity
-    guid: 124b9596967c55541bdb8294feb74594
+  - enabled: 1
+    path: Assets/Scenes/Blue_Gibbs-Start Scene AS.unity
+    guid: ca4d0289660335a4aa15e29a02c2d788
   - enabled: 1
     path: Assets/Scenes/Dress-Up mini game 3 AS.unity
     guid: 71ab8a4a7cd44eb4aa604d366b7b44f7
+  - enabled: 1
+    path: Assets/Scenes/AS Scene.unity
+    guid: 04b74952cdbf0af4592b3f2ac41b5954
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 4eb9452fe7f547e44877413355645785
+  - enabled: 0
+    path: Assets/Scenes/Explore house scene.unity
+    guid: 124b9596967c55541bdb8294feb74594
   m_configObjects: {}

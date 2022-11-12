@@ -9,7 +9,7 @@ TagManager:
   - Door
   - lever
   - EDoor
-  - '"Ball"'
+  - Ball
   layers:
   - Default
   - TransparentFX
