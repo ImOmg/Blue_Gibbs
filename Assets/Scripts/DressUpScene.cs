@@ -5,10 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class DressUpScene : MonoBehaviour
 {
+    public GameObject door, player;
     private void Update()
     {
-        reloadScene();
         switchScene();
+        reloadScene();
+    }
+
+    void switchScene()
+    {
+        bool change = Input.GetKey(KeyCode.N);
+
+        if (change && Vector3.Distance(player.transform.position, door.transform.position) < 7f)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
     void reloadScene()
@@ -18,16 +29,6 @@ public class DressUpScene : MonoBehaviour
         if (restart)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-    }
-
-    void switchScene()
-    {
-        bool change = Input.GetKey(KeyCode.P);
-
-        if (change)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
     
