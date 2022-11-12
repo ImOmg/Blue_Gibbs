@@ -77,6 +77,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (topChosen)
         {
             jersey.SetActive(false);
+            UIText.text = goodTop;
             //    dress.SetActive(false);
             //   suitTop.SetActive(false);
         }
@@ -84,6 +85,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (jerseyChosen)
         {
             top.SetActive(false);
+            UIText.text = badTop;
             //   dress.SetActive(false);
             //  suitTop.SetActive(false);
         }
@@ -112,6 +114,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (shoesChosen)
         {
             runners.SetActive(false);
+            UIText.text = goodShoes;
             //  heels.SetActive(false);
             //   suitShoes.SetActive(false);
         }
@@ -119,10 +122,12 @@ public class DressUpGameDialogue : MonoBehaviour
         if (runnersChosen)
         {
             shoes.SetActive(false);
+            UIText.text = badShoes;
             //  heels.SetActive(false);
             //  suitShoes.SetActive(false);
         }
 
+        /*
         if (heelsChosen)
         {
             shoes.SetActive(false);
@@ -130,7 +135,7 @@ public class DressUpGameDialogue : MonoBehaviour
             runners.SetActive(false);
         }
 
-        /*
+        
         if (suitShoesChosen)
         {
             shoes.SetActive(false);
@@ -142,6 +147,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (shortsChosen)
         {
             skirt.SetActive(false);
+            UIText.text = badBottoms;
             //  dress.SetActive(false);
             // suitPants.SetActive(false);
         }
@@ -149,6 +155,7 @@ public class DressUpGameDialogue : MonoBehaviour
         if (skirtChosen)
         {
             shorts.SetActive(false);
+            UIText.text = goodBottoms;
             //  dress.SetActive(false);
             // suitPants.SetActive(false);
         }
@@ -180,6 +187,7 @@ public class DressUpGameDialogue : MonoBehaviour
             camera1.SetActive(false);
             camera2.SetActive(true);
             UIText2.text = outfitChosen;
+            UIText.text = playing;
         }
     }
 
